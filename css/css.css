@@ -5,10 +5,10 @@ body{
 /**
  * top顶部
  */
-.top_menu{margin:0 auto;height:30px;}
-.top_menu {float: left;font-size: 13px;}
+#top{width:960px;margin:0 auto;height:30px;}
+.top_menu {float: left;font-size: 13px;margin-left: -17px;}
 .top_menu li{float: left; background: url(../img/top_ico.png) no-repeat right 14px;}
-.top_menu a{line-height:30px;padding-left: 18px;margin-right: 15px;color: #fef9f9;}
+.top_menu a{line-height:30px;padding-left: 17px;margin-right: 15px;color: #fef9f9;}
 .top_menu a:hover{color: blue;}
 .top_menu .no_dot{background:none}
 
@@ -17,4 +17,14 @@ body{
 .top_bar .phone{background: url(../img/top_ico.png) no-repeat 8px -16px;padding:0 38px;}
 .top_bar .help{background: url(../img/top_ico.png) no-repeat 0 -46px;padding:0 38px;}
 .top_bar .space{margin-right:12px;}
+/**
+ * 头部 head
+ */
+#header{width:960px;height: 100px;margin:0 auto;position: relative;background: url(../img/h1_bg.png)no-repeat;}
+#header #shopping{width: 260px;height: 100px;background: url(../img/shopping_bg.png) no-repeat;}
 
+#shopping p{font-size: 20px;color: #FFFFFF;font-family: "Arial";padding:26px 0 0 84px;}
+#shopping a{display: block; font-size:15px;font-family: arial;line-height:23px;font-weight: bold; text-align:center;width:114px; height:23px;background: url(../img/shopping_checked.png) no-repeat;position:absolute;left:104px;top:56px;}
+
+#header h1{width:238px;margin: 0 auto;position: absolute;left: 50%;top:0;margin-left: -119px;}
+#header .search{}

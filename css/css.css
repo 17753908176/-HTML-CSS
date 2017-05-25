@@ -27,4 +27,17 @@ body{
 #shopping a{display: block; font-size:15px;font-family: arial;line-height:23px;font-weight: bold; text-align:center;width:114px; height:23px;background: url(../img/shopping_checked.png) no-repeat;position:absolute;left:104px;top:56px;}
 
 #header h1{width:238px;margin: 0 auto;position: absolute;left: 50%;top:0;margin-left: -119px;}
-#header .search{}
+#header .search{top: 33px;right: 0;}
+.search{position: absolute; width: 292px;height:31px;background: url(../img/search.png) no-repeat;}
+.search .text{font-family: ; font-size:13px;position: absolute;top: 0;left: 20px; width:230px;height:31px;background:none;border: none;outline: none;}
+.search .btn{position: absolute; top:0;right:0;width:42px;height:31px;border: none;background: none;}
+/*
+ 导航
+ * */
+#nav{height: 36px;width:960px;margin:0 auto;padding-top: 8px;}
+#nav li{float: left;height: 28px;background: url(../img/active.png) no-repeat;}
+#nav a{float:left;height: 28px;padding: 0 16px;}
+#nav span{float: left;eight: 28px;}
+#nav .active a:hover{}
+#nav .avitve strong{}
+#nav .active span{}

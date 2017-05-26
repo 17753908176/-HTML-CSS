@@ -35,9 +35,19 @@ body{
  导航
  * */
 #nav{height: 36px;width:960px;margin:0 auto;padding-top: 8px;}
-#nav li{float: left;height: 28px;background: url(../img/active.png) no-repeat;}
-#nav a{float:left;height: 28px;padding: 0 16px;}
-#nav span{float: left;eight: 28px;}
-#nav .active a:hover{}
-#nav .avitve strong{}
-#nav .active span{}
+#nav li{float: left;height: 28px;margin-right:2px;}
+
+#nav a{line-height:28px;float:left;height: 28px;padding: 0 16px;color: #FFFFFF;font-size: 15px; font-family: arial;font-weight: normal;}
+#nav strong{float: left;eight: 28px;}
+#nav span{float: left;eight: 28px;padding 0 16px}
+
+#nav a:hover,#nav .active a{background: url(../img/nav_active_bg.png) repeat-x 0 -56px;}
+#nav a:hover strong,#nav .avitve strong{background: url(../img/nav_active_bg.png) no-repeat;}
+#nav a:hover span,#nav .active span{background: url(../img/nav_active_bg.png) no-repeat right -28px;}
+
+/**
+ * 主体内容 头部
+ */
+#content{width: 1000px;margin:24px auto 0;background: url(../img/content_bg.png) repeat-y -1000px 0;}
+#content_top{width: 1000px;background: url(../img/content_bg.png) no-repeat;}
+#content_bottom{width: 1000px;background:url(../img/content_bg.png) no-repeat -2000px bottom;}

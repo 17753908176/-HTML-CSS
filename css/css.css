@@ -51,3 +51,11 @@ body{
 #content{width: 1000px;margin:24px auto 0;background: url(../img/content_bg.png) repeat-y -1000px 0;}
 #content_top{width: 1000px;background: url(../img/content_bg.png) no-repeat;}
 #content_bottom{width: 1000px;background:url(../img/content_bg.png) no-repeat -2000px bottom;}
+
+#ad{width:940px;height:300px;margin:0 auto;position: relative;top:10px;},
+#ad ul{position: absolute;top:0;left: 0;}
+#ad li{position: absolute;top:0;left: 0;}
+#ad h2{width:268px;text-align:center;color:#ffc600;font-size:25px;position: absolute;left: 0;bottom: 16px;z-index: 3;}
+#ad p{position: absolute;left:268px;bottom: 7px;z-index: 3;font-size: 13px;color: #FFFFFF;line-height: 16px;width: 630px;}
+#ad .bg{z-index:2;width:940px;height: 52px;background:#000000 ;filter: alpha(opacity:80);opacity: 0.8;position: absolute;bottom: 0;left: 0;}
+
